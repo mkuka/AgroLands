@@ -82,7 +82,7 @@ def pixel_size():
 pixel_size()
 
 
-region_df = pd.read_csv('C:\\USD\\DM\\Programming_Project_3\\region_stats.csv')
+region_df = pd.read_csv('..\\data\\region_stats.csv')
 
 
 def get_landusage_data():
@@ -135,7 +135,7 @@ find_landusage()
 
 
 #Load the county boundaries into geopandas.
-county_gdf = gpd.read_file('C:\\USD\\DM\\Programming_Project_3\\cb_2018_us_county_5m\\cb_2018_us_county_5m.shp')
+county_gdf = gpd.read_file('..\\data\\cb_2018_us_county_5m.shp')
 
 # get geodataframe for IOWA.
 IOWA_county_gdf=county_gdf.loc[(county_gdf['STATEFP']=='19')]
