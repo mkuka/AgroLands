@@ -1,5 +1,5 @@
 # Land Usage Analysis
-We compute the land usage for five counties in the state of Iowa; Black Hawk, Butler, Franklin, Carroll, & Webster. In order to do the analysis, first we create Shapely Point type object for each pixel and use the affine projection matrix to convert it to a position in UTM Zone 15. 
+We compute the land usage for five counties in the state of Iowa; Black Hawk, Butler, Franklin, Carroll, & Webster. In order to do the analysis, we first create Shapely Point type object for each pixel and use the affine projection matrix to convert it to a position in UTM Zone 15. 
 
 ```geojson
 {
