@@ -29,7 +29,7 @@ We compute the land usage for five counties in the state of Iowa; Black Hawk, Bu
 ```
 
 ### Setup for spyder on Windows
-Install [miniconda](https://docs.conda.io/en/latest/miniconda.html) as admin and relevant python modules, such as [geopandas](https://geopandas.org/en/stable/) to access geospatial data and apply spatial operations on geometric types, [rasterio](https://rasterio.readthedocs.io/en/latest/) to access geospatial raster data, etc.
+Install [miniconda](https://docs.conda.io/en/latest/miniconda.html) as the admin and relevant python modules, such as [geopandas](https://geopandas.org/en/stable/) to access geospatial data and apply spatial operations on geometric types, and [rasterio](https://rasterio.readthedocs.io/en/latest/) to access geospatial raster data.
 ```
 conda create -n spyder-env -y
 conda activate spyder-env
